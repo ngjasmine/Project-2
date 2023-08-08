@@ -1,19 +1,18 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 2: Singapore Housing Data
 
 ### **Try Out our Housing Price Predictor Streamlit App by clicking the link below.**
-### [HDB Resale Price Predictor Application with 11 Most Important Factors](https://project-2streamlit-application-house-price-predictionr-n4fym7.streamlit.app/)
-![Streamlit App](https://raw.githubusercontent.com/khammingfatt/Project-2-Your-House-Your-Future-Linear-Ridge-Lasso-Modelling/main/Streamlit%20Application.png)
+### [HDB Resale Price Predictor Application with 11 Most Important Factors](https://your-house-your-future-resale-price-predictor.streamlit.app/)
+![Streamlit App](streamlit_screenshot.png)
 
 <br>
 
 ## Content Directory:
-- Background and Problem Statement
-- Data Import & Cleaning
-- Feature Engineering
-- Exploratory Data Analysis
-- [Modeling](#Modeling)
-- [Kaggle Submission](#Kaggle-Submission)
-- [Key Insights & Recommendations](#Key-Insights-&-Recommendations)
+- [Background and Problem Statement](#background)
+- [Datasets Used](#datasets-used)
+- [Exploratory Data Analysis](#brief-description-of-our-data-exploration)
+- [Modeling](#summary-of-feature-selection-from-each-model)
+- [Kaggle Submission](#kaggle-submission)
+- [Key Insights & Recommendations](#key-insights)
 
 <br>
 
@@ -54,7 +53,7 @@ We are a real estate start-up company in Singapore and we are addressing to a ho
 ### Brief Description of Our Data Exploration
 Upon studying the datasets, we found out that these are the most important 10 factors that affects the housing price are given as below. Starting from the most important factor, we have floor area per square feet, max floor level and lease commence date.
  
-![SHAP Importance of Variables](https://github.com/khammingfatt/Project-2-Your-House-Your-Future-Linear-Ridge-Lasso-Modelling/blob/main/SHAP%20Importance%20of%20Values.png?raw=true)
+![SHAP Importance of Variables](shap_values.png)
 <br>
 
 We went further and engineered some additional features to assist us in building the most accurate model and summarised in the data dictionary below.
@@ -109,7 +108,7 @@ We did 3 different models - **Linear, Lasso and Ridge Regression Models** for Mo
 
 ## Kaggle Submission
 Our best model has attained a ~48,000 RMSE with our prediction.
-![kaggle](https://raw.githubusercontent.com/khammingfatt/Project-2-Your-House-Your-Future-Linear-Ridge-Lasso-Modelling/main/Kaggle%20Submission.jpeg)
+![kaggle](kaggle_submission.jpeg)
 
 <br>
 
