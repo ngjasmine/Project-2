@@ -9,6 +9,7 @@
 ## Content Directory:
 - [Background and Problem Statement](#background)
 - [Datasets Used](#datasets-used)
+- [Feature Engineering](#feature-engineering)
 - [Exploratory Data Analysis](#brief-description-of-our-data-exploration)
 - [Modeling](#summary-of-feature-selection-from-each-model)
 - [Kaggle Submission](#kaggle-submission)
@@ -63,6 +64,7 @@ We went further and engineered some additional features to assist us in building
 ## Data Dictionary
 The data dictionary for the columns found in train.csv can be found at this [kaggle link](https://www.kaggle.com/competitions/dsi-sg-project-2-regression-challenge-hdb-price/data).
 
+## Feature Engineering
 Additionally we have added the following features:
 
 | Feature | Type | Dataset | Description |
