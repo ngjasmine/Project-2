@@ -65,9 +65,7 @@ Additionally we have added the following features:
 | pop_ranking_2cat | int | na | Primary School ranking split into 2 tiers - top 8 schools are Cat 1 and the reamaining are Cat 2 |
 | postal_sector | object | na | First 2 characters of the 'postal' column is its [postal sector](https://www.mingproperty.sg/singapore-district-code/) | 
 | housing_region | object | na | Housing regions of Core Central Region (CCR), Rest of Central Region (RCR), and Outside Central Region (OCR), [as defined by the Urban Redevelopment Authority](https://www.redbrick.sg/blog/singapore-districts-and-regions/), were assigned to each flat based on its postal sector. | 
----
 
-<br>
 <br>
 
 ## Summary of Feature Selection from Each Model
@@ -82,8 +80,6 @@ We did 3 different models - **Linear, Lasso and Ridge Regression Models** for Mo
 | Model 2 | (1) The features selection are based on features correlation <br>(2) Feature engineering of region against flat types <br>(3) Popularity ranking of primary schools <br>(4) Availability of amenities |
 | Model 3 |(1) Feature selection based on model 1 features and <br>(2) Feature importance from previous models| 
 
-
-<br>
 <br>
 
 ## Summary of Model
@@ -95,7 +91,6 @@ We did 3 different models - **Linear, Lasso and Ridge Regression Models** for Mo
 | RMSE (internal test) | 52,965.62 | 47,162.25 | 41,837.78 | 46,806.20 | **47,162.25** |
 | RMSE (external tested with data from Kaggle) | NA | 47,149.78 | 47,509.99 | 55,781.83 | **47,149.78** |
 
-
 <br>
 
 ## Kaggle Submission
@@ -103,8 +98,6 @@ Our best model has attained a ~48,000 RMSE with our prediction.
 ![kaggle](kaggle_submission.jpeg)
 
 <br>
-
-
 
 ## Key Insights
 The following features were found to have the greatest impact on the model we have built:
@@ -119,7 +112,6 @@ The following features were found to have the greatest impact on the model we ha
 * Hawker Nearest Distance
 * Mall Nearest Distance
 * Pri Sch Nearest Distance
-
 
 ## Recommendations
 
